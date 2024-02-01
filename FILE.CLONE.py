@@ -201,13 +201,7 @@ def bsn_menu():
     os.system('clear')
     logo()
     ipm = requests.get(url_ip).json() 
-    IP = ipm["origin"]
-    print("[*]. FACEBOOK   : ANIS SCHIAPARELLI");time.sleep (0.03)
-    print("[*]. VERSION    : 0.8");time.sleep (0.03)
-    print("[*]. TOOL TYPE  : PAID");time.sleep (0.03)
-    print("[*]. IP ADDRESS : [%s]\n"%(IP));time.sleep(0.01)
-    print("   \033[1;97m              Menu")
-    print("-----------------=\<------------------")
+    IP = ipm["origin"    
     print(" [1] File Cloning")
     print(" [0] Exit")
     print("")
