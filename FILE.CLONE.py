@@ -1,4 +1,4 @@
-# Decompile by TAHOSIN 
+9# Decompile by TAHOSIN 
 # Time Succes decompile : 2023-04-01 14:00:33.945975
 
 import os
@@ -200,8 +200,7 @@ def hasil(OK,cp):
 def bsn_menu():
     os.system('clear')
     logo()
-    ipm = requests.get(url_ip).json() 
-    IP = ipm["origin"    
+    ipm = requests.get(url_ip).json()
     print(" [1] File Cloning")
     print(" [0] Exit")
     print("")
